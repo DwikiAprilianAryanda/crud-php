@@ -1,7 +1,3 @@
-Tentu. Berdasarkan semua file yang telah Anda unggah dan ketentuan dari gambar, berikut adalah konten `README.md` yang lengkap untuk proyek Anda.
-
------
-
 # Aplikasi Manajemen Produk (PHP Native CRUD Dashboard)
 
 Aplikasi ini adalah dashboard CRUD (Create, Read, Update, Delete) untuk manajemen produk. Dibangun murni menggunakan **PHP Native** (tanpa framework), koneksi **PDO**, dan antarmuka (UI) modern dengan **Bootstrap 5** dan **AJAX**.
