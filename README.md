@@ -84,24 +84,22 @@ Semua operasi data (tambah, edit, hapus, cari, pindah halaman) dieksekusi di lat
 
 ## Contoh Environment Config
 
-Ini adalah konten yang harus Anda masukkan ke dalam file `config.php` yang Anda buat.
 
 ```php
 <?php
-// Tampilkan error saat development, set ke 0 saat produksi
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 ini_set('log_errors', 1);
 
-// Path absolut ke folder uploads
+
 define('UPLOADS_DIR', __DIR__ . '/uploads/');
 
-// --- KONFIGURASI DATABASE ---
+
 $db_host = 'localhost';
 $db_name = 'db_toko';
-$db_user = 'root';      // Sesuaikan dengan username Anda
-$db_pass = '';          // Sesuaikan dengan password Anda
-// ---------------------------
+$db_user = 'root';      
+$db_pass = '';          
+
 
 try {
     $pdo = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pass);
@@ -121,4 +119,8 @@ try {
 
 ## Screenshot Aplikasi
 
-*(Disarankan untuk mengambil screenshot aplikasi Anda yang sedang berjalan, menguploadnya ke GitHub, dan mengganti nama file di bawah ini)*
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e50f4582-2e70-4a21-bb48-d03f4d816555" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/4568becc-2a98-4679-a191-01b75944d42a" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/6a6a12c1-09b5-43f5-9697-8be970e83203" />
