@@ -6,7 +6,7 @@ Semua operasi data (tambah, edit, hapus, cari, pindah halaman) dieksekusi di lat
 
 -----
 
-## Fitur yang Tersedia 🚀
+## Fitur yang Tersedia 
 
   * **Full CRUD (Create, Read, Update, Delete)** via AJAX tanpa *refresh* halaman.
   * **Upload Gambar Produk** (termasuk preview, update, dan hapus file otomatis saat data dihapus/diperbarui).
@@ -121,6 +121,10 @@ try {
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e50f4582-2e70-4a21-bb48-d03f4d816555" />
 
+
+
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/4568becc-2a98-4679-a191-01b75944d42a" />
+
+
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/6a6a12c1-09b5-43f5-9697-8be970e83203" />
